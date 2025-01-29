@@ -98,8 +98,6 @@ export default class Slide {
     if (this.index.next !== undefined) this.changeSlide(this.index.next);
   }
   onResize() {
-    console.log("teste");
-    
     setTimeout(() => {
       this.slideconfig();
       this.changeSlide(this.index.active);
