@@ -36,3 +36,18 @@ img {
   opacity: 1;
   transform: scale(.95);
 }
+.arrow-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.arrow-nav button {
+  background-color: transparent;
+  border: none;
+  margin: 0 20px;
+  z-index: 100;
+  opacity: 0.6;
+  cursor: pointer;
+}
